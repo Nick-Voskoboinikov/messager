@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Chat prototype</title>
+</head>
+
+<body>
+    <section>
+        <div class="peeps_container">
+            <ul class="peeps-chats">
+                <li><a href="#" data-avatar data-name="SkillFactory"></a></li>
+                <li><a href="#" data-avatar data-name="John"></a></li>
+                <li><a href="#" data-avatar data-name="Mary"></a></li>
+                <li><a href="#" data-avatar data-name="Peter"></a></li>
+            </ul>
+        </div>
+        <div class="chat-container">
+            <h3>Чат с пользователем <span class="username">SkillFactory</span></h3>
+            <div class="active-chat">
+                <ul>
+                    <li>
+                        <div class="incoming" data-date="20.05.2021 10:32">Привет!</div>
+                    </li>
+                    <li>
+                        <div class="incoming" data-date="20.05.2021 10:32">Привет!</div>
+                    </li>
+                    <li>
+                        <div class="incoming" data-date="20.05.2021 10:32">Привет!</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="own_message_wrapper">
+                <textarea name="message" id="user_message" cols="30" rows="10"
+                    placeholder="Наберите Ваше сообщение здесь"></textarea>
+                <input type="button" alt="Отправить" title="Отправить" />
+            </div>
+        </div>
+        <div class="settings_access">
+            <ul>
+                <li>Профиль</li>
+                <li>Настройки</li>
+                <li>Выход</li>
+            </ul>
+        </div>
+    </section>
+</body>
+
+</html>
